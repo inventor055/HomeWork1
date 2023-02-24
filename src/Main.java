@@ -13,7 +13,7 @@ public class Main {
         teacher.students[0].Informationst();
         teacher.students[1].Informationst();
         teacher.students[2].Informationst();
-        Teacher f1 = new Teacher(40, "Artyom", "Olegov");
+        Teacher f1 = new Teacher(40, "Artem", "Olegov");
         Teacher f2 = new Teacher(f1);
         f2.age = 41;
         f2.name = "Gleb";
